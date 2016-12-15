@@ -45,7 +45,7 @@ open class SnowFallingView: UIView {
     }
     
     required public init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+        super.init(coder: aDecoder)!
     }
     
     open func createFlakes() {
@@ -75,7 +75,7 @@ open class SnowFallingView: UIView {
     }
     
     open func startSnow() {
-        if flakesArray? == nil {
+        if flakesArray == nil {
             createFlakes()
         }
         backgroundColor = UIColor.clear
