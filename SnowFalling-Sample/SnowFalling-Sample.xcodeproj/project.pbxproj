@@ -323,6 +323,7 @@
 				TargetAttributes = {
 					6E08A7FA1A8D37DD00F6093C = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
 					};
 					6E08A80F1A8D37DD00F6093C = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -556,6 +557,7 @@
 				INFOPLIST_FILE = "SnowFalling-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -566,6 +568,7 @@
 				INFOPLIST_FILE = "SnowFalling-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -720,6 +723,7 @@
 				6E43261C1AF88F380004A547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E4326211AF88F380004A547 /* Build configuration list for PBXNativeTarget "SnowFallingTests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +732,7 @@
 				6E43261E1AF88F380004A547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
