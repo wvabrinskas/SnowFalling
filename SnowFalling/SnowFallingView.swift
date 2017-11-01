@@ -106,8 +106,12 @@ open class SnowFallingView: UIView {
     }
     
     open func stopSnow() {
-        for v: UIImageView in flakesArray! {
+        guard let flakes = flakesArray else {
+            return
+        }
+        for v: UIImageView in flakes {
             v.layer.removeAllAnimations()
+            v.removeFromSuperview()
         }
         flakesArray = nil
     }
